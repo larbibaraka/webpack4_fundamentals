@@ -1,1 +1,3 @@
-let x = "baraka";
+import nav from './nav';
+
+console.log(nav);
