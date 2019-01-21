@@ -4,7 +4,9 @@
     "description": "<https://frontendmasters.com/courses/webpack-fundamentals/> ## by  Sean Larkin",
     "main": "index.js",
     "scripts": {
-      "webpack" : "webpack"
+      "webpack" : "webpack",
+      "dev"  : "npm run webpack -- --mode development",
+      "prod" : "npm run webpack -- --mode production"
     },
     "repository": {
       "type": "git",
