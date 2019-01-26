@@ -1,52 +1,50 @@
 {
-    "name": "learn_frontendmasters_webpack",
-    "version": "1.0.0",
-    "description": "<https://frontendmasters.com/courses/webpack-fundamentals/> ## by  Sean Larkin",
-    "main": "index.js",
-    "scripts": {
-      "webpack" : "webpack",
-      "debug" : "node --inspect --debug-brk .node_modules/webpack/bin/webpack.js",
-      "dev"  : "npm run webpack -- --mode development --watch",
-      "prod" : "npm run webpack -- --mode production --watch",
-      "dev:debug" : "npm run debug -- --mode developement",
-      "dev:prod" : "npm run debug -- --mode production"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/larbibaraka/webpack4_fundamentals.git"
-    },
-    "author": "larbi baraka",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/larbibaraka/webpack4_fundamentals/issues"
-    },
-    "homepage": "https://github.com/larbibaraka/webpack4_fundamentals#readme",
-   
-    "devDependencies": {
-      "@babel/core": "^7.0.0-beta.46",
-      "@babel/preset-env": "^7.0.0-beta.46",
-      "babel-loader": "^8.0.0-beta",
-      "css-loader": "^0.28.11",
-      "file-loader": "^1.1.11",
-      "fork-ts-checker-webpack-plugin": "^0.4.1",
-      "html-loader": "^0.5.5",
-      "html-webpack-plugin": "^3.2.0",
-      "http-server": "^0.11.1",
-      "mini-css-extract-plugin": "^0.4.0",
-      "postcss-loader": "^2.1.5",
-      "style-loader": "^0.21.0",
-      "ts-loader": "^4.2.0",
-      "url-loader": "^1.0.1",
-      "webpack": "^4.8.0",
-      "webpack-bundle-analyzer": "^2.11.1",
-      "webpack-cli": "^3.1.2",
-      "webpack-node-externals": "^1.7.2",
-      "workbox-webpack-plugin": "^3.2.0"
-    },
-    "dependencies": {
-      "d3": "^5.1.0"
-    }
+  "name": "learn_frontendmasters_webpack",
+  "version": "1.0.0",
+  "description": "<https://frontendmasters.com/courses/webpack-fundamentals/> ## by  Sean Larkin",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/main.js",
+    "webpack": "webpack",
+    "debug": "node --inspect --debug-brk .node_modules/webpack/bin/webpack.js",
+    "dev": "npm run webpack -- --mode development --watch",
+    "prod": "npm run webpack -- --mode production --watch",
+    "dev:debug": "npm run debug -- --mode developement",
+    "dev:prod": "npm run debug -- --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larbibaraka/webpack4_fundamentals.git"
+  },
+  "author": "larbi baraka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larbibaraka/webpack4_fundamentals/issues"
+  },
+  "homepage": "https://github.com/larbibaraka/webpack4_fundamentals#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "fork-ts-checker-webpack-plugin": "^0.4.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "mini-css-extract-plugin": "^0.4.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.2.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2",
+    "workbox-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "d3": "^5.1.0",
+    "nodemon": "^1.18.9"
   }
-  
-  
-  
+}
